@@ -3,12 +3,12 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://mio331.github.io',
   base: '/astro_blog',
-  title: 'Astro AntfuStyle Theme',
+  title: 'Mio\'s log',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
+    ':p',
+  author: 'Mio',
+  lang: 'zh-Hans',
+  ogLocale: 'zh_CN',
   imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
 }
 
@@ -20,60 +20,60 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Blog',
     },
-    {
-      path: '/projects',
-      title: 'Projects',
-      displayMode: 'alwaysText',
-      text: 'Projects',
-    },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
-    {
-      path: '/photos',
-      title: 'Photos',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Photos',
-      icon: 'i-ri-camera-ai-line',
-    },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-meteor-icons-grid',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
+    // {
+    //   path: '/projects',
+    //   title: 'Projects',
+    //   displayMode: 'alwaysText',
+    //   text: 'Projects',
+    // },
+    // {
+    //   path: '/highlights',
+    //   title: 'Highlights',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Highlights',
+    //   icon: 'i-ri-screenshot-line',
+    // },
+    // {
+    //   path: '/photos',
+    //   title: 'Photos',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Photos',
+    //   icon: 'i-ri-camera-ai-line',
+    // },
+    // {
+    //   path: '/shorts',
+    //   title: 'Shorts',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Shorts',
+    //   icon: 'i-meteor-icons-grid',
+    // },
+    // {
+    //   path: '/changelog',
+    //   title: 'Changelog',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Changelog',
+    //   icon: 'i-ri-draft-line',
+    // },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/Mio331',
+      title: 'Mio on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
-    {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
-    },
+    // {
+    //   link: 'https://x.com/astrodotbuild',
+    //   title: 'Astro on Twitter',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-ri-twitter-x-fill',
+    // },
+    // {
+    //   link: 'https://bsky.app/profile/astro.build',
+    //   title: 'Astro on Bluesky',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-meteor-icons-bluesky',
+    // },
   ],
   navBarLayout: {
     left: [],
@@ -148,8 +148,8 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
+      twitter: false,
+      bluesky: false,
       mastodon: false,
       facebook: false,
       pinterest: false,
@@ -159,7 +159,7 @@ export const FEATURES: Features = {
       email: false,
     },
   ],
-  giscus: [
+  giscus: [ // Comment system
     true,
     {
       'data-repo': 'lin-stephanie/astro-antfustyle-theme',
@@ -177,7 +177,7 @@ export const FEATURES: Features = {
   search: [
     true,
     {
-      includes: ['blog', 'changelog'],
+      includes: ['blog'],
       filter: true,
       navHighlight: true,
       batchLoadSize: [true, 5],
