@@ -1,8 +1,8 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
-  base: '/',
+  website: 'https://mio331.github.io',
+  base: '/astro_blog',
   title: 'Astro AntfuStyle Theme',
   description:
     'A customizable, feature-rich Astro theme for blog and portfolio creation',
