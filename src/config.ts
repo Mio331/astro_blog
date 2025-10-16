@@ -2,13 +2,13 @@ import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
   website: 'https://mio331.github.io',
-  base: '/astro_blog',
+  base: '/',
   title: 'Mio\'s log',
   description:
     ':p',
   author: 'Mio',
-  lang: 'zh-Hans',
-  ogLocale: 'zh_CN',
+  lang: 'en',
+  ogLocale: 'en_US',
   imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
 }
 
@@ -162,10 +162,10 @@ export const FEATURES: Features = {
   giscus: [ // Comment system
     true,
     {
-      'data-repo': 'lin-stephanie/astro-antfustyle-theme',
-      'data-repo-id': 'R_kgDOLylKbA',
+      'data-repo': 'Mio331/astro_blog',
+      'data-repo-id': 'R_kgDOQDccPg',
       'data-category': 'Giscus',
-      'data-category-id': 'DIC_kwDOLylKbM4Cpugn',
+      'data-category-id': 'DIC_kwDOQDccPs4CwuaA',
       'data-mapping': 'title',
       'data-strict': '0',
       'data-reactions-enabled': '1',
