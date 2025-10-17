@@ -14,3 +14,4 @@ ogImage: false
 draft: false
 ---
 
+:badge-n This is a sample log 🥱
