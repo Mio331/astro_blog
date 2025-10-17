@@ -20,12 +20,12 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Blog',
     },
-    // {
-    //   path: '/projects',
-    //   title: 'Projects',
-    //   displayMode: 'alwaysText',
-    //   text: 'Projects',
-    // },
+    {
+      path: '/projects',
+      title: 'Projects',
+      displayMode: 'alwaysText',
+      text: 'Projects',
+    },
     // {
     //   path: '/highlights',
     //   title: 'Highlights',
@@ -88,11 +88,12 @@ export const UI: Ui = {
     ],
     mergeOnMobile: true,
   },
-  tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
-  ],
+  tabbedLayoutTabs: false,
+  // [
+  //   { title: 'Changelog', path: '/changelog' },
+  //   { title: 'AstroBlog', path: '/feeds' },
+  //   { title: 'AstroStreams', path: '/streams' },
+  // ],
   groupView: {
     maxGroupColumns: 3,
     showGroupItemColorOnHover: true,
