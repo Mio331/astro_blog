@@ -1,8 +1,8 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://mio331.github.io',
-  base: '/astro_blog',
+  website: 'https://mio331.github.io/astro_blog',
+  base: '/',
   title: 'Mio\'s log',
   description:
     ':p',
